@@ -28,7 +28,7 @@ def merge_sort_ftn(arr, l, r) -> None:
     merge_sort_ftn(arr, l, mid)
     merge_sort_ftn(arr, mid, r)
     merge(arr, l, mid, r)
- 
+  
 def merge_sort(data) -> None:
   merge_sort_ftn(data, 0, len(data))
 
